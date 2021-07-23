@@ -1,0 +1,38 @@
+:root{
+    --white-bone: #f9f9f9;
+    --black: #000000;
+}
+
+.header{
+    min-height: 60px;
+    display: flex;
+    background-color:var(--white-bone);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header__menu{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 0 20%;
+}
+
+.header .header__nav a{
+    color: var(--black);
+    text-decoration: none;
+    padding: 0.5rem;
+    font-weight: bold;
+}
+
+.header .header__nav a:hover{
+    transition: 150ms;
+    border: 2px solid, var(--black);
+}
+
+.header__menu img{ 
+    height: 90px;
+    
+}
